@@ -1,0 +1,23 @@
+spring:
+    cloud:
+        zookeeper:
+            connect-string:
+                        localhost:2181
+
+#    data:
+#       mongodb:
+#            host: ${mongodb.host}
+#            port: ${mongodb.port}
+#            database: ${mongodb.database}
+
+    data:
+       mongodb:
+           host: localhost
+           port: 27017
+           database: BookStore      
+      
+Server:
+    port:  8085    
+    
+           
+           
